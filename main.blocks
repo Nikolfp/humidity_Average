@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="y/}vX~obauaPk:HiSs,3">υγρασία</variable><variable id="di7F+Kw]@1qbaUqlqUqG">μέσος_όρος</variable><variable id="8fNQM-gjbkIrd9c(ep}5">άθροισμα</variable></variables><block type="every_interval" id="~kD(_:qtTOJvqi^1La]3" x="0" y="0"><value name="interval"><shadow type="longTimePicker" id="Ycifyg$YnXBhW.3o$!S6"><field name="ms">60000</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="xwU0T5q@9ar/aL/Tdh*?"><field name="VAR" id="8fNQM-gjbkIrd9c(ep}5">άθροισμα</field><value name="VALUE"><shadow type="math_number" id="{+h@0w(Fd$0_cg)C3yvz"><field name="NUM">0</field></shadow></value><next><block type="controls_repeat_ext" id="pQ`EPXIiHtr6%*(2uL/r"><value name="TIMES"><shadow type="math_whole_number" id="UG(Iw}5F(AR`;l`$iQV^"><field name="NUM">6</field></shadow></value><statement name="DO"><block type="variables_set" id="=J8B~qgG#fj(%u0RG*H`"><field name="VAR" id="y/}vX~obauaPk:HiSs,3">υγρασία</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="{e8]@9UoUV_;)UM-71H$"><field name="name">AnalogPin.P0</field></block></value><next><block type="device_show_number" id="BB]9wvWqV@::Sz7_j{2o"><value name="number"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="Unr`Iyo8}!qde7L/C0qq"><field name="VAR" id="y/}vX~obauaPk:HiSs,3">υγρασία</field></block></value><next><block type="device_pause" id="dl7t+3wd|dMm(kSwXkxt"><value name="pause"><shadow type="timePicker" id="1OdMY1/eAsJYOOCL8#?k"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="#*MUt^,YEFe(WFu)DZC#"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="variables_set" id="uf.11g3]NZpzd3%]z[JM"><field name="VAR" id="8fNQM-gjbkIrd9c(ep}5">άθροισμα</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="RmgVbWltnFY`|Y@vT=~D"><field name="OP">ADD</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=";(+c+2r:cC|OcqF4RpbA"><field name="VAR" id="8fNQM-gjbkIrd9c(ep}5">άθροισμα</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=",_5Kiy;1OZ|yA2Yxm/@%"><field name="VAR" id="y/}vX~obauaPk:HiSs,3">υγρασία</field></block></value></block></value></block></next></block></next></block></next></block></next></block></statement><next><block type="device_show_leds" id="Q%aR}P0wD?YKsD7irsY;"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="4G.kuH}H|pj_y|_Rp~ID"><value name="pause"><shadow type="timePicker" id="HpH0*(5%?WKF7e!9a3{D"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="E|yz$qS0pA,%HBwUzJJ;"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="variables_set" id="`c$)Crk5)~zeCAli_F8i"><field name="VAR" id="di7F+Kw]@1qbaUqlqUqG">μέσος_όρος</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id=".Ud3F{B:B!zp-D:ll3e`"><field name="OP">DIVIDE</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="cFgt~83Wa7o,8SJw9MU,"><field name="VAR" id="8fNQM-gjbkIrd9c(ep}5">άθροισμα</field></block></value><value name="B"><shadow type="math_number" id="~5[O?gR86gdh:PNh^Gu^"><field name="NUM">6</field></shadow></value></block></value><next><block type="device_show_number" id=";#rhTBg:6u[1]Pt)c~n~"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_js_round" id="5;Ep)XdH.(SD0a!P)-mF"><field name="OP">round</field><value name="ARG0"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="q4UTr~BBqG`MBK3Fg*(4"><field name="VAR" id="di7F+Kw]@1qbaUqlqUqG">μέσος_όρος</field></block></value></block></value><next><block type="device_pause" id="i7~F3sE(IkH:|/FJ{}0k"><value name="pause"><shadow type="timePicker" id="?y$KdLVhG1vIa~ixDh2v"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="ic3gO48_`AQYIO2UL4+H"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
